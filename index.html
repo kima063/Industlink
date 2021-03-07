@@ -13,36 +13,94 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" style="margin-left:65px" alt="mdb logo">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <!-- <a class="nav-link" href="#">Link</a> -->
-                  </li>
-                </ul>
-                <form class="justify-content-sm-between nav-button mt-15 mb-15">
-                  <button type="button" class="btn btn-outline-secondary round" data-bs-container="body" data-bs-toggle="popover" style="margin-right:20px; width: 150px;" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                <form class="justify-content-sm-between nav-button mt-15 mb-15" style="margin-left: 75%;">
+                  <!-- <a class="btn btn-outline-secondary round" href="registratioForm.html" role="button" data-bs-toggle="modal" data-bs-target="registration" style="margin-right:20px; width: 150px;" onclick="registration()" id="registration">Registration</a> -->
+                  
+                  <button type="button" class="btn btn-outline-secondary round" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-right:20px; width: 150px;">
                     Registration
                   </button>
-                  <!-- <a class="btn btn-outline-secondary" href="#" role="button" style="margin-right:20px">Registration</a> -->
-                  <a class="btn btn-outline-secondary round" href="#" role="button" style="margin-right:65px; width: 100px ;">Log In</a>
+
+                  <button type="button" class="btn btn-outline-secondary round" data-bs-toggle="modal" data-bs-target="#exampleModal-login" style="margin-right:65px; width: 100px;">
+                    Log In
+                  </button>
+
+                  <!-- <a class="btn btn-outline-secondary round" href="loginForm.html" role="button" style="margin-right:65px; width: 100px ;" onclick="login()" id="login">Log In</a> -->
                 </form>
               </div>
 
     </nav>
+    <!-- Modal Registration -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style= " border-radius: 10px; height: 40%;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; font-size:x-large;  border-radius: 10px;">Registration</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <button type="submit" class="btn btn-outline-secondary" style="margin-left: 10%; width: 60%; border-radius: 25px; margin-top: 2%;">As a Service Provider</button>
+          </div>
+          <button type="submit" class="btn btn-outline-secondary" style="margin-left: 10%; width: 60%; border-radius: 25px;">As a Service Seeker</button>
+        </div>
+      </div>
+    </div> <!--ENDS-->
+
+    <!--Modal login-->
+    <div class="modal fade" id="exampleModal-login" tabindex="-1" aria-labelledby="exampleModalLabel-login" aria-hidden="true" style=" border-radius: 10px;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel-login" style="display: flex;">Log In</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 80%; border-radius: 25px;">
+              <div id="emailHelp" class="form-text"></div>
+              <div>
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" style="width: 80%; border-radius: 25px;">
+              </div>
+              <div style="display:flex;">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember</label>
+              <a href="#" class="card-link" style="margin-left: 15%; color: grey;">Forgot password?</a>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-outline-secondary" style="margin-left: 25%; width: 30%; border-radius: 25px;">Login</button>
+              </div>
+              <div style="display: flex;">
+                <label>Don't have an account?</label>
+                <a href="#" class="card-link " style="color: grey; margin-left: 5%;">Registration</a>
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </div> <!--ENDS-->
   </head>
   <body>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- <script>
+    function login() {
+      document.getElementById("login").innerHTML = " ";
+    }
 
+    function registration() {
+      document.getElementById("registration").innerHTML = " ";
+    }
+    </script> -->
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> -->
    
 
-    <div style="background-color:#e5e4e2">
+    <div style="background-color:#e5e4e2;">
      <!--Desired Company-->
-     <div class="desired-company">
+     <div class="desired-company mb-30">
         <h1>Search Your desired Company / Project</h1>
         <div class="input-group">
           <div class="form-outline" id="form-outline-style" >
@@ -50,10 +108,10 @@
           </div>
         </div> </div>
         <!--Container CARD-->
-      <div class="container-fluid round">
-        <div class="container-fluid round container-card scrolling-wrapper" >
+      <div class="container-fluid round container-card-sandwitch" >
+        <div class="container-fluid round container-card " >
      
-        <div class="card">
+        <div class="card" >
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text card-p">Web development</p>
@@ -95,14 +153,17 @@
             <p class="card-text card-p">ReactJS Expert</p>
           </div>
         </div>
-      </div>
-    </div>
+    </div>      
+    </div> 
+    <!-- <div><button type="submit">
+      <i class="fas fa-play"></i>
+    </button></div> -->
     </div>
 
     <!--STARTS HERE Recommended-->
     <div style="background-color: white;">
     <!-- <div class="container-fluid card"> -->
-      <div class="recommended-card">
+      <div class="recommended-card" style="margin-bottom: 30px;">
         <h2 class="recommended-card-h2">Recommended</h2>
         <div class="recommended-card-row">
 
@@ -110,7 +171,7 @@
         <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title card-text-align">ABC Technology</h5>
-          <h7 style="margin:35%">Experties</h7>
+          <h7 style="margin:35%">Expertise</h7>
           <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
           <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
@@ -119,7 +180,7 @@
         <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title card-text-align">XYZ Company</h5>
-          <h7 style="margin:35%">Experties</h7>
+          <h7 style="margin:35%">Expertise</h7>
           <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
           <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
@@ -128,7 +189,7 @@
         <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title card-text-align">A & Z Technology</h5>
-          <h7 style="margin:35%">Experties</h7>
+          <h7 style="margin:35%">Expertise</h7>
           <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
           <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
@@ -137,7 +198,7 @@
         <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title card-text-align">Dream Land</h5>
-          <h7 style="margin:35%">Experties</h7>
+          <h7 style="margin:35%">Expertise</h7>
           <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
           <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
@@ -236,34 +297,44 @@
       </div>
     <!--ENDS SERVICE-->   </div>
     <!--Container Fluid Video-->
-    <div style="background-color:whitesmoke;">
-    <h3 class=".latest-service-h2">How it Works</h3>
-      <!-- <div class="embed-responsive embed-responsive-4by3">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen style="margin: 90px;"></iframe>
-      </div> -->
-      <div class="ratio" style="--bs-aspect-ratio: 50%;">
+    <div style="background-color:whitesmoke; display: flex;">
+      <div>
+    <h2 class="video-h3">How it Works</h2>
+      <div class="iframe-container iframe-position" >
         <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" width="30%" height="100"></iframe>
+      </div> </div>
+      <div style="margin-left: 30%; margin-top:4%; margin-bottom: 10%;">
+        <div >
+          <h3>Step 1</h3>
+          <p>
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
+
+          </p>
+        </div>
+        <div>
+          <h3>Step 2</h3>
+          <p>
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
+
+          </p>
+        </div>
+        <div>
+          <h3>Step 3</h3>
+          <p>
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
+
+          </p>
+        </div>
       </div>
-
-
-      <!--STARTS FROM HEREEE-->
-
-      <!-- <div class="wrapper">
-        <div class="item">box-1</div>
-        <div class="item">box-2</div>
-        <div class="item">box-3</div>
-        <div class="item">box-4</div>
-        <div class="item">box-5</div>
-        <div class="item">box-6</div>
-      </div> -->
-
-      <!--Another ONE-->
-
-      
-
-      <!--ENDS HERE-->
       </div>
   </body>
   <footer>
+    <nav class="navbar navbar-dark bg-dark" style="height: 60px;">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">
+          
+        </span>
+      </div>
+    </nav>
   </footer>
 </html>
