@@ -18,7 +18,7 @@
                     <!-- <a class="nav-link" href="#">Link</a> -->
                   </li>
                 </ul>
-                <form class="justify-content-sm-between">
+                <form class="justify-content-sm-between nav-button">
                   <button type="button" class="btn btn-outline-secondary round" data-bs-container="body" data-bs-toggle="popover" style="margin-right:20px; width: 150px;" data-bs-placement="bottom" data-bs-content="Bottom popover">
                     Registration
                   </button>
@@ -35,22 +35,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> -->
+   
 
     <div style="background-color:#e5e4e2">
      <!--Desired Company-->
+     <div class="desired-company">
         <h1>Search Your desired Company / Project</h1>
-        <div class="input-group" id="input-group-style">
+        <div class="input-group">
           <div class="form-outline" id="form-outline-style" >
             <input id="search-focus" placeholder="search" id="form1" class="form-control round searchbar-input" />
           </div>
-        </div>
+        </div> </div>
         <!--Container CARD-->
-      <div class="container-fluid round container-card">
-        <div class="container-fluid container-card" >
+      <div class="container-fluid round">
+        <div class="container-fluid round container-card" >
        
         <div class="card">
           <img src="..." class="card-img-top" alt="...">
@@ -99,46 +100,50 @@
     </div>
 
     <!--STARTS HERE Recommended-->
-    <div class="container-fluid card">
+    <div style="background-color: white;">
+    <!-- <div class="container-fluid card"> -->
       <div class="recommended-card">
         <h2 class="recommended-card-h2">Recommended</h2>
         <div class="recommended-card-row">
 
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+      <div class="card" style="width: 18rem; background-color: whitesmoke;">
+        <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-outline-secondary round">Company Profile</a>
+          <h5 class="card-title card-text-align">ABC Technology</h5>
+          <h7 style="margin:35%">Experties</h7>
+          <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
+          <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+      <div class="card" style="width: 18rem; background-color: whitesmoke;">
+        <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-outline-secondary round">Company Profile</a>
+          <h5 class="card-title card-text-align">XYZ Company</h5>
+          <h7 style="margin:35%">Experties</h7>
+          <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
+          <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+      <div class="card" style="width: 18rem; background-color: whitesmoke;">
+        <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-outline-secondary round">Company Profile</a>
+          <h5 class="card-title card-text-align">A & Z Technology</h5>
+          <h7 style="margin:35%">Experties</h7>
+          <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
+          <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+      <div class="card" style="width: 18rem; background-color: whitesmoke;">
+        <img src="images/nascenia-company-profile-1-638.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-outline-secondary round">Company Profile</a>
+          <h5 class="card-title card-text-align">Dream Land</h5>
+          <h7 style="margin:35%">Experties</h7>
+          <p class="card-text">Ruby on Rails, dotNet, PHP, Java....</p>
+          <a href="#" class="btn btn-outline-secondary round recommended-card-button-align">Company Profile</a>
         </div>
       </div>
-    </div>
 
-    </div>
+    </div>  </div>   </div>
 
     <!--Starts HERE Lastest Service-->
       <h2 class="latest-service-h2">Lastest Service</h2>
@@ -204,15 +209,17 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div> </div> </div> </div> </div>
       </div> </div>
-    </div> </div>
-    <!--ENDS SERVICE-->
-    </div>
+    </div> 
+    <!--ENDS SERVICE-->   </div>
     <!--Container Fluid Video-->
     <div style="background-color:#dcdcdc;">
     <h3 class="video-h3">How it Works</h3>
-      <div class="embed-responsive embed-responsive-16by9">
+      <!-- <div class="embed-responsive embed-responsive-4by3">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen style="margin: 90px;"></iframe>
-      </div>
+      </div> -->
+      <!-- <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen style="margin: 90px;"></iframe>
+      </div> -->
 
 
       </div>
