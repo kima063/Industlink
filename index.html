@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" style="margin-left:65px" alt="mdb logo">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="justify-content-sm-between nav-button mt-15 mb-15" style="margin-left: 75%;">
+                <form class="justify-content-sm-between nav-button mt-15 mb-15" style="margin-left: 75%; display:flex;">
                   <!-- <a class="btn btn-outline-secondary round" href="registratioForm.html" role="button" data-bs-toggle="modal" data-bs-target="registration" style="margin-right:20px; width: 150px;" onclick="registration()" id="registration">Registration</a> -->
                   
                   <button type="button" class="btn btn-outline-secondary round" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-right:20px; width: 150px;">
@@ -31,33 +31,33 @@
     </nav>
     <!-- Modal Registration -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style= " border-radius: 10px; height: 40%;">
-      <div class="modal-dialog">
+      <div class="modal-dialog round">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; font-size:x-large;  border-radius: 10px;">Registration</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title" id="exampleModalLabel" style="font-size:x-large; margin-left: 34%;">Registration</h5>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
           </div>
           <div class="modal-body">
-            <button type="submit" class="btn btn-outline-secondary" style="margin-left: 10%; width: 60%; border-radius: 25px; margin-top: 2%;">As a Service Provider</button>
+            <button type="submit" class="btn btn-outline-secondary" style="margin-left: 20%; width: 60%; border-radius: 25px; margin-top: 2%;">As a Service Provider</button>
           </div>
-          <button type="submit" class="btn btn-outline-secondary" style="margin-left: 10%; width: 60%; border-radius: 25px;">As a Service Seeker</button>
+          <button type="submit" class="btn btn-outline-secondary" style="margin-left: 20%; width: 60%; border-radius: 25px; margin-bottom: 5%;">As a Service Seeker</button>
         </div>
       </div>
     </div> <!--ENDS-->
 
     <!--Modal login-->
     <div class="modal fade" id="exampleModal-login" tabindex="-1" aria-labelledby="exampleModalLabel-login" aria-hidden="true" style=" border-radius: 10px;">
-      <div class="modal-dialog">
+      <div class="modal-dialog round">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel-login" style="display: flex;">Log In</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title" id="exampleModalLabel-login" style="margin-left: 40%; font-size: x-large;">Log In</h5>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
           </div>
           <div class="modal-body">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <label for="exampleInputEmail1" class="form-label " >Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 80%; border-radius: 25px;">
               <div id="emailHelp" class="form-text"></div>
-              <div>
+              <div style="margin-bottom: 3px;">
                 <label for="exampleInputPassword1" class="form-label">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1" style="width: 80%; border-radius: 25px;">
               </div>
