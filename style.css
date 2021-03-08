@@ -59,11 +59,16 @@ h1{
 .recommended-card{
     padding: 5%;
     justify-content:space-evenly;
+    margin-bottom: 30px;
 }
 .recommended-card-h2{
     margin-top: 8%;
-    margin-bottom: 2.5%;
-    margin-left: 1.4%;
+    margin-bottom: 2%;
+    margin-left: 1.2%;
+}
+
+.recommended-card-container-fluid{
+    justify-content: space-evenly;
 }
 
 /* Recommended Card Ends*/
