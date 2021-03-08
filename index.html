@@ -37,8 +37,16 @@
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-end btn-toolbar mr-60" id="navbarSupportedContent">
           <form class="d-flex">
-            <button class="btn btn-outline-secondary round" type="submit" style="width: 60%;">Registration</button>
-            <button class="btn btn-outline-secondary round" type="submit" style="width: 40%;">Login</button>
+            <!-- <button class="btn btn-outline-secondary round" type="submit" style="width: 60%;">Registration</button> -->
+            <button type="button" class="btn btn-outline-secondary round" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-right:20px; width: 150px;">
+              Registration
+            </button>
+            <!-- <button class="btn btn-outline-secondary round" type="submit" style="width: 40%;">Login</button> -->
+
+            <button type="button" class="btn btn-outline-secondary round" data-bs-toggle="modal" data-bs-target="#exampleModal-login" style="margin-right:65px; width: 100px;">
+              Log In
+            </button>
+
           </form>
         </div>
       </div>
@@ -47,7 +55,7 @@
 
 
     <!-- Modal Registration previous-->
-    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style= " border-radius: 10px; height: 40%;">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style= " border-radius: 10px; height: 40%;">
       <div class="modal-dialog round">
         <div class="modal-content">
           <div class="modal-header">
@@ -59,11 +67,11 @@
           <button type="submit" class="btn btn-outline-secondary" style="margin-left: 20%; width: 60%; border-radius: 25px; margin-bottom: 5%;">As a Service Seeker</button>
         </div>
       </div>
-    </div> -->
+    </div>
      <!--ENDS-->
 
     <!--Modal login-->
-    <!-- <div class="modal fade" id="exampleModal-login" tabindex="-1" aria-labelledby="exampleModalLabel-login" aria-hidden="true" style=" border-radius: 10px;">
+    <div class="modal fade" id="exampleModal-login" tabindex="-1" aria-labelledby="exampleModalLabel-login" aria-hidden="true" style=" border-radius: 10px;">
       <div class="modal-dialog round">
         <div class="modal-content">
           <div class="modal-header">
@@ -93,7 +101,7 @@
           </div>
         </div>
       </div>
-    </div>  -->
+    </div> 
     <!--ENDS-->
   </head>
   <body>
