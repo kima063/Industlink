@@ -1,1 +1,2 @@
 npm install bootstrap@next / import bootstrap from 'bootstrap';
+npm i bootstrap-icons

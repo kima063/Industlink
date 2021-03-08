@@ -55,28 +55,21 @@ h1{
     font-weight: lighter;
 }
 
+/* Recommended Card Starts*/
 .recommended-card{
-    padding: 60px;
+    padding: 5%;
+    justify-content:space-evenly;
 }
 .recommended-card-h2{
     margin-top: 8%;
-    margin-bottom: 30px;
+    margin-bottom: 2.5%;
+    margin-left: 1.4%;
 }
 
-.card-text-align{
-    text-align: center;
-    margin-bottom: 15px;
-}
-.recommended-card-button-align{
-    margin-left: 22% ;
-}
-.recommended-card-row{
-    display:flex; 
-    justify-content:space-evenly;
-}
+/* Recommended Card Ends*/
 
 .latest-service-h2{
-    margin-bottom: 30px;
+    margin-bottom: 3%;
     margin-left: 4.4% ;
 }
 
