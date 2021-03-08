@@ -29,9 +29,11 @@ h1{
     width: 100%;
     height: auto;
     align-items: center;
+    position: relative;
 }
 .searchbar-input{
     height: 50%;
+    position: relative;
 }
 
 #form-outline-style{
@@ -39,6 +41,7 @@ h1{
     height: 100px;
     margin-bottom: 8%;
     margin-left: 18%;
+    position: relative;
 }
 .container-card-sandwitch{
     display: block;
@@ -105,7 +108,7 @@ h1{
 
 .video-h3{
     padding-top: 8%;
-    margin-left: 15%;
+    margin-left: 20%;
     padding-bottom: 4%;
 
 
