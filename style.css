@@ -11,10 +11,6 @@ body{
 .round{
     border-radius: 25px;
 }
-/* .nav-button{
-    margin-top:15;
-    margin-bottom: 15;
-} */
 
 h1{
     font-family: 'Open Sans', sans-serif; 
@@ -70,8 +66,6 @@ h1{
 }
 .recommended-card-h2{
     margin-top: 8%;
-    /* margin-bottom: 2%;
-    margin-left: 7.5%; */
 }
 
 .recommended-card-container-fluid{
@@ -82,30 +76,30 @@ h1{
 /* Recommended Card Ends*/
 
 
-.iframe-position{
+/* .iframe-position{
     margin-left: 15%;
 
 }
 
 .iframe-text{
-    margin-left: 40%; margin-top:4%; margin-bottom: 10%; padding-top: 8%;
+    margin-left: 40%; 
+    margin-top:4%; 
+    margin-bottom: 10%; 
+    padding-top: 8%;
 }
 
 .video-h2{
     padding-top: 8%;
     padding-bottom: 4%;
     margin-left: 7% ;
-
-
-}
+} */
 
 h3{
-    font-weight:bold;
+    font-weight:normal;
     font-size:large;
 }
 
 h2{
     margin-bottom: 3%;
     margin-left: 2.5% ;
-
 }
