@@ -70,8 +70,8 @@ h1{
 }
 .recommended-card-h2{
     margin-top: 8%;
-    margin-bottom: 2%;
-    margin-left: 7.5%;
+    /* margin-bottom: 2%;
+    margin-left: 7.5%; */
 }
 
 .recommended-card-container-fluid{
@@ -81,24 +81,31 @@ h1{
 
 /* Recommended Card Ends*/
 
-.latest-service-h2{
-    margin-bottom: 3%;
-    margin-left: 2.5% ;
-}
-.iframe-text{
-    margin-left: 40%; 
-    margin-top:4%; 
-    margin-bottom: 10%; 
-    padding-top: 8%;
+
+.iframe-position{
+    margin-left: 15%;
+
 }
 
-.video-h3{
+.iframe-text{
+    margin-left: 40%; margin-top:4%; margin-bottom: 10%; padding-top: 8%;
+}
+
+.video-h2{
     padding-top: 8%;
-    margin-left: 20%;
     padding-bottom: 4%;
+    margin-left: 7% ;
+
+
 }
 
 h3{
     font-weight:bold;
     font-size:large;
+}
+
+h2{
+    margin-bottom: 3%;
+    margin-left: 2.5% ;
+
 }
