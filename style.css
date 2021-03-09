@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
 }
+/* Home Screen  Starts   /////////////////////////////////////////////////////////////////////////////////  */
 .round{
     border-radius: 25px;
 }
@@ -96,3 +97,30 @@ h2{
 .whitesmoke{
     background-color: whitesmoke;
 }
+
+
+/* Home Screen  Ends*/
+
+
+/* Service Provider Profile Screen  Starts     ///////////////////////////////////////////////////////////////////////////////////////  */
+
+.navbar-img{
+    margin-left:65px
+
+}
+
+.company-card-margin{
+    margin-top:40px;
+}
+
+
+.about-p{
+    margin: 30px 30px;
+}
+
+.divider{
+    border-left: 1px solid grey;
+    height: 130px;
+  }
+
+/* Service Provider Profile Screen Ends*/
