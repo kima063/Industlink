@@ -17,7 +17,9 @@ h1{
     margin-left: 150px;
     margin-bottom: 50px;
 }
-
+.desired-company-background-color{
+    background-color:#e5e4e2;
+}
 .desired-company{
     justify-content: center;
     width: 100%;
