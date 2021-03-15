@@ -6,7 +6,11 @@
 /* Common margin positioning ///////////////////////////////////////////////////     */
 
 .margin-left-120{
-    margin-left: 120px; /* page-4, 10 */
+    margin-left: 120px; /* page-4, 10, 1 */
+}
+
+.margin-left-110{
+    margin-left: 110px; /* page- 1 */
 }
 
 .margin-left-100{
@@ -19,13 +23,16 @@
 }
 
 
-
 .margin-left-50{
     margin-left: 50px;
 }
 
 
-/* Common padding positioning   ///////////////////////////////   */
+.margin-left-160{
+    margin-left: 160px;  /*  page 1 */
+}
+
+/* Common padding positioning   //////////////////////////////////  */
 
 .padding-right-120{
     padding-right: 120px;  /*page-6 , 9*/
@@ -128,6 +135,23 @@ h2{
     margin-left: 2.5% ;
 }
 
+/* fluid video */
+
+.video-right{
+    width: 40%; float:right; margin-top: 80px; height: 100%;
+
+}
+
+.video-left{
+    width: 60%; float:left;
+
+}
+
+.video-h2{
+    margin-left: 40%;
+
+}
+
 
 /* Home Screen  Ends*/
 
@@ -144,11 +168,11 @@ h2{
     margin: 30px 30px;
 }
 
-.divider{
+/* .divider{
     border-left: 1px solid grey;
     height: 140px;
     
-  }
+  } */
 
 /* Service Provider Profile Screen Ends*/
 
