@@ -107,10 +107,11 @@ h1{
 
 
 .button-style-sandwich{
-    margin-left: 525px; 
+    margin-left: 38%; 
     border-radius: 50px; 
     width: 50px; 
     height: 50px;
+    position: relative;
     
 }
 
