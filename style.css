@@ -56,6 +56,12 @@
     width: 50rem;
 }
 
+
+/*Common Width */
+.width-button{
+    width: 55; /* page2 */
+}
+
 /* Home Screen  Starts ////////////////////////////////  */
 .round{
     border-radius: 10px;
@@ -186,4 +192,10 @@ h2{
 
 /* Service Provider Profile Screen Ends*/
 
+
+/* page 8 */
+
+.a-style{
+    text-decoration:none ;
+}
 
