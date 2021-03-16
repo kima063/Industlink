@@ -52,6 +52,9 @@
     width: 22rem;
 }
 
+.card-width-25{
+    width:25rem;
+}
 .card-width-50{
     width: 50rem;
 }
@@ -125,6 +128,7 @@ h1{
 .recommended-card{
     padding: 5%;
     margin-bottom: 30px;
+    margin-top: 70px;
 }
 
 
