@@ -105,7 +105,7 @@ h1{
     margin-left: 18%;
     position: relative;
 }
-.container-card-sandwich{
+/* .container-card-sandwich{
     display: block;
     position: absolute;
     left: 50%;
@@ -122,7 +122,7 @@ h1{
     height: 50px;
     position: relative;
     
-}
+} */
 
 /* Recommended Card */
 .recommended-card{
@@ -203,3 +203,28 @@ h2{
     text-decoration:none ;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-card{
+    width: 10rem; 
+    height: auto;
+}
+
+.carousel-inner-position{
+    margin-left: 10rem; 
+    margin-right: 10rem;
+
+}
+
+.product{
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+
+}
+
+.product:hover{
+    transform: scale(1.2);
+}
