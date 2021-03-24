@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding:0;
+    overflow-x: hidden;
 }
 
-/* Common margin positioning ///////////////////////////////////////////////////     */
+/* Common margin positioning /////////////////   */
 
 .margin-left-120{
     margin-left: 120px; /* page-4, 10, 1 */
@@ -32,7 +33,7 @@
     margin-left: 160px;  /*  page 1 */
 }
 
-/* Common padding positioning   //////////////////////////////////  */
+/* Common padding positioning   //////////// */
 
 .padding-right-120{
     padding-right: 120px;  /*page-6 , 9*/
@@ -65,7 +66,7 @@
     width: 55; /* page2 */
 }
 
-/* Home Screen  Starts ////////////////////////////////  */
+/* Home Screen  Starts ////////////  */
 .round{
     border-radius: 10px;
 }
@@ -105,24 +106,6 @@ h1{
     margin-left: 18%;
     position: relative;
 }
-/* .container-card-sandwich{
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    width: 90%; 
-    justify-content: space-between;
-}
-
-
-.button-style-sandwich{
-    margin-left: 38%; 
-    border-radius: 50px; 
-    width: 50px; 
-    height: 50px;
-    position: relative;
-    
-} */
 
 /* Recommended Card */
 .recommended-card{
@@ -203,6 +186,9 @@ h2{
     text-decoration:none ;
 }
 
+
+
+/*carousel */
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
@@ -210,7 +196,8 @@ h2{
 
 .carousel-card{
     width: 10rem; 
-    height: auto;
+    height: 8rem;
+    overflow:hidden ;
 }
 
 .carousel-inner-position{
@@ -219,12 +206,4 @@ h2{
 
 }
 
-.product{
-    transition: all .8s ease-in-out;
-    -webkit-transition: all .8s ease-in-out;
 
-}
-
-.product:hover{
-    transform: scale(1.2);
-}
