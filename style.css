@@ -187,23 +187,31 @@ h2{
 }
 
 
+/*Slick */
+  .slick-dots li button {
+    display: none;
+}
 
-/*carousel */
-.carousel-control-next-icon,
+
+.container-slick {
+    margin: 0 auto;
+    padding: 40px;
+    width: 90%;
+    color: #333;
+  }
+  
+  .slick-slide {
+    text-align: center;
+  }
+
+.slick-next {
+    float: right;
+    transform: translateY(-100%) !important;
+}
+.slick-prev {
+    float: left;
+}
+/* .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
-}
-
-.carousel-card{
-    width: 10rem; 
-    height: 8rem;
-    overflow:hidden ;
-}
-
-.carousel-inner-position{
-    margin-left: 10rem; 
-    margin-right: 10rem;
-
-}
-
-
+} */
