@@ -231,4 +231,10 @@ h2{
     background: whitesmoke;
     margin: 0px 10px;
     text-align: center;
+    
+}
+
+.slick-track
+{
+    display: flex !important;
 }
