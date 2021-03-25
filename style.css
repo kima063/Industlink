@@ -185,7 +185,12 @@ h2{
 .a-style{
     text-decoration:none ;
 }
+/*bootstrap carousel*/
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
 
 /*Slick */
 
@@ -220,8 +225,8 @@ h2{
 }
 
 .post-slider .post-wrapper .post{
-    width: 60px;
-    height: 80px;
+    width: 180px;
+    height: 80px !important;
     display: inline-block;
     background: whitesmoke;
     margin: 0px 10px;
